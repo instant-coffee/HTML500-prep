@@ -75,4 +75,10 @@ footer a {
 #social-media img {
   width: 35px;
   padding: 1.5%;
+  transition: background-color 0.65s ease;
+  border-radius: 25%;
+}
+
+#social-media img:hover {
+  background-color: #00695C;
 }
