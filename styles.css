@@ -33,3 +33,15 @@ header p {
   margin: 0;
   font-size: 16px;
 }
+
+aside {
+  background-color: #282C34;
+  color: #F6CE30;
+}
+
+aside ul li a {
+  font-size: 28px;
+  color: #F6CE30;
+  cursor: pointer;
+  font-family: 'Bungee', serif;
+}
