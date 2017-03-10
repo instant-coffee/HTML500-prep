@@ -1,7 +1,6 @@
 header {
   background-color: #00897B;
   color: white;
-
 }
 
 .container {
@@ -19,6 +18,22 @@ header {
   padding: 1%;
   background-color: #757575;
   border-radius: 50%;
+}
+
+.profile-picture:hover {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+@keyframes spin {
+    from  {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
 }
 
 h1, h2 {
