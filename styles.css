@@ -4,6 +4,11 @@ header {
 
 }
 
+.container {
+  overflow: hidden;
+  background-color: #282C34;
+}
+
 .center {
   text-align: center;
 }
@@ -37,6 +42,8 @@ header p {
 aside {
   background-color: #282C34;
   color: #FFEE58;
+  width: 20%;
+  float: left;
 }
 
 aside ul li a {
@@ -48,6 +55,8 @@ aside ul li a {
 
 main {
   background-color: #FFEA00;
+  width: 72%;
+  float: left;
 }
 
 main h2 {
