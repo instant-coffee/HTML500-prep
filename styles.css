@@ -1,9 +1,17 @@
 header {
-  background-color: #1DE9B6;
+  background-color: #00897B;
   color: white;
 
 }
 
 .center {
   text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  background-color: #757575;
+  border-radius: 50%;
 }
