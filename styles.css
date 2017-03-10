@@ -36,7 +36,7 @@ header p {
 
 aside {
   background-color: #282C34;
-  color: #F6CE30;
+  color: #FFEE58;
 }
 
 aside ul li a {
@@ -44,4 +44,22 @@ aside ul li a {
   color: #F6CE30;
   cursor: pointer;
   font-family: 'Bungee', serif;
+}
+
+main {
+  background-color: #FFEA00;
+}
+
+main h2 {
+  color: #29B6F6;
+}
+
+footer {
+  background-color: #00897B;
+  color: #fff;
+}
+
+#social-media img {
+  width: 35px;
+  padding: 1.5%;
 }
